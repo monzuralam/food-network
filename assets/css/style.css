@@ -50,3 +50,64 @@ a{
 .col-6{
     max-width: 66.66%;
 }
+
+/* -------------------------------------------------
+# Main style 
+* -------------------------------------------------*/
+/* header css  */
+header{
+    background-color: #222;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .logo{
+    float: left;
+}
+
+header .logo a{
+    text-decoration: none;
+}
+
+header .logo a img{
+    width: 100%;
+}
+
+header .menu{
+    float: right;
+}
+
+header .menu nav{
+    margin-left: 50px;
+}
+
+header .menu nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+header .menu nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header .menu nav ul li:first-child{
+    margin-left: 0;
+}
+
+header .menu nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+header .menu nav ul li a.active{
+    color:#FBA24F;
+}
+
+header .menu nav ul li a:hover{
+    color:#FBA24F;
+}
+
