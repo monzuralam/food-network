@@ -197,3 +197,62 @@ header .menu nav ul li a:hover{
     text-decoration: none;
     padding: 25px 50px;
 }
+/* my recipe */
+.my-recipe{
+    overflow: hidden;
+    position: relative;
+    background-color: #E5E5E5;
+    padding-top: 72px;
+    padding-bottom: 129px;
+}
+
+.my-recipe .title{
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.my-recipe h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #676767;
+    margin-bottom: 30px;
+}
+
+.my-recipe p{
+    font-size: 18px;
+    line-height: 22px;
+    color: #252525;
+    margin-bottom: 40px;
+}
+
+.my-recipe article{
+    overflow: hidden;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px #c1c1c1;
+}
+
+.my-recipe article img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.my-recipe article h3{
+    font-size: 28px;
+    font-weight: 650;
+    line-height: 40px;
+    color:#18191f;
+    margin-bottom: 10px;
+}
+
+.my-recipe article p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#18191f;
+    line-height: 32px;
+    margin-bottom: 0;
+}
