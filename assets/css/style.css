@@ -256,3 +256,37 @@ header .menu nav ul li a:hover{
     line-height: 32px;
     margin-bottom: 0;
 }
+/* counter section  */
+.counter{
+    position: relative;
+    overflow: hidden;
+    margin-top: 130px;
+    margin-bottom: 90px;
+}
+
+.counter-area{
+    box-shadow: 1px 1px 8px 7px #eee;
+    text-align: center;
+}
+
+.counter .col-3{
+    width: 33.3%;
+}
+
+.counter-summary{
+    text-align: center;
+    margin: 64px 0;
+}
+
+.counter-summary p{
+    font-size: 48px;
+    font-weight: bold;
+    color: #18191F;
+}
+
+.counter-summary span{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #18191F;
+}
