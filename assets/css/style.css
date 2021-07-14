@@ -290,3 +290,24 @@ header .menu nav ul li a:hover{
     font-weight: 400;
     color: #18191F;
 }
+
+/* footer section  */
+footer.footer-section{
+    background-color: #0B0D17;
+    position: relative;
+    overflow: hidden;
+    padding: 115px 0;
+}
+
+footer.footer-section .footer-wrapper{
+    position: relative;
+    text-align: center;
+}
+
+footer.footer-section .footer-wrapper p{
+    padding-top: 37px;
+}
+
+footer.footer-section .footer-wrapper .footer-logo img{
+    max-width: 100%;
+}
